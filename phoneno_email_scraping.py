@@ -2,7 +2,7 @@ import re
 from urllib.request import urlopen
 
 url = input("Enter a website to scan: (include http(s)://)\n")
-website = urlopen(url).read().decode('utf8')
+website = urlopen(url).read().decode('utf-8')
 
 
 # REGEX OF PHONE:
